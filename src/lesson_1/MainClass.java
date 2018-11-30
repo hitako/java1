@@ -11,7 +11,6 @@ public class MainClass {
         long l = 55124L;
         boolean bool = true;
 
-
         System.out.println(calc(1, 2, 3, 4));
         System.out.println(checkInterval(6, 4));
     }
@@ -23,6 +22,4 @@ public class MainClass {
     private static boolean checkInterval(int a, int b) {
         return ( (a + b) <= 20 && (a + b) >= 10 );
     }
-
-
 }
